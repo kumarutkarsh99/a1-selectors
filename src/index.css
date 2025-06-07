@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-button{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary{
+  background-color: teal !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.wrapper {
+  position: relative;
+  overflow: visible;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+  right: -50px;
+  height: 70%; /* Covers half the height from the bottom */
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.foreground {
+  position: relative;
+  z-index: 1;
+  display: block;
+  border-radius: 12px; /* Optional if your image is in a device frame */
+  padding: 10px 10px 0 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+.carousel{
+  border-radius: 20px 20px 0 0;
+}
